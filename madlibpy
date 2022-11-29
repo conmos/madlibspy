@@ -1,0 +1,13 @@
+# entries for the madlib 
+adj = input("Adjective: ")
+verb1 = input("Verb: ")
+verb2 = input("Verb: ")
+noun = input("Noun: ")
+
+# f strings allow for curly bracket {} entries to be made that insert expressios referring to literal values or variables
+
+madlib = f"Sometimes surfing is {adj} but other times it is really {verb1}! Even though we {verb2} we always eat {noun} after."
+
+print(madlib)
+
+# copy/paste & run code to enjoy the madness 
